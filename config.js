@@ -49,6 +49,8 @@ module.exports = {
     INBO1: process.env.INBO_BLOCK === undefined ? 'true' : process.env.INBO_BLOCK,
     DISBGM: process.env.DISABLE_JID_BGM_FILTER === undefined ? false : process.env.DISABLE_JID_BGM_FILTER,
     STICKERP: process.env.AUTO_STICKER === undefined ? true : convertToBool(process.env.AUTO_STICKER),
+    take_key: process.env.TAKE_KEY === undefined ? '' : process.env.TAKE_KEY,
+    find_key: process.env.FIND_KEY === undefined ? '' : process.env.FIND_KEY,
     DISSTICKER: process.env.DISABLE_STICKER === undefined ? false : process.env.DISABLE_STICKER,
     BOT: process.env.BOT_NAME === undefined ? '•━━━━╼⤏Bixby Mowl⤎╾━━━•' : process.env.BOT_NAME,
     BOTSK: process.env.BOT_NAME === undefined ? 'Bixby Mowl' : process.env.BOT_NAME,

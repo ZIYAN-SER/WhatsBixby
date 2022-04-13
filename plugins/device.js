@@ -7,7 +7,7 @@ const LOAD_ING = "*Searching details*"
 const Config = require('../config');
 
 const Language = require('../language');
-const Lang = Language.getString('scrapers');
+const Lang = Language.getString('DEVICE');
 
 if (Config.WORKTYPE == 'private') {
 Asena.addCommand({pattern: 'device ?(.*)', fromMe: true, desc: Lang.DEVICE , dontAddCommandList: true }, async (message, match) => {

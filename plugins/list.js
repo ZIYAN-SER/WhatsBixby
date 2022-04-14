@@ -8,7 +8,7 @@ const config = require('../config');
 const Language = require('../language');
 const Lang = Language.getString('wallpaper');
 
-Asena.addCommand({pattern: 'list', fromMe: false, desc: 'command help menu'}, (async (message, match) => {
+Asena.addCommand({pattern: 'clist', fromMe: false, desc: 'command help menu'}, (async (message, match) => {
 
     var r_text = new Array ();
     

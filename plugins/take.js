@@ -1,5 +1,7 @@
-/* (c) souravkl11/raganork
-You may not use this file except compliance with license!*/
+//THIS PLUGIN BY ZIYAN
+//PLEASE GIVE CREDIT WHEN COPYING
+//©BIXBY MOWL 2022
+//GITHUB IS OPEN SOURCE SO YOU CAN COPY BUT NEVER MAKE A DEVELOPERS RESULTS OF WEEKS OF WORK COPY WITHOUT CREDIT 
 let {addCommand} = require('../events');
 let { MessageType, Mimetype } = require('@adiwajshing/baileys');
 let w = require('../config');

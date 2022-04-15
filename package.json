@@ -1,14 +1,14 @@
 {
-  "name": "Miss.Helena",
+  "name": "Bixby Mowl",
   "version": "7.3.6",
-  "description": "Helena is the Modified Version of WhatsAsena, Made By @farhan-dqz with Baileys.",
-  "main": "./Julie-Mwol/bot.js",
+  "description": "Bixby Mowl is the Modified Version of WhatsAsena, Made By @RIPPER-SER with Baileys.",
+  "main": "./Bixby-Mowl/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/farhan-dqz/Julie-Mwol.git"
+    "url": "git+https://github.com/RIPPER-SER/Bixby-Mwol.git"
   },
   "keywords": [
     "whatsapp",
@@ -17,8 +17,8 @@
     "asena",
     "WhatsAsena"
   ],
-  "author": "farhan-dqz",
-  "developer": "@TOXIC-DEVIL / @farhan-dqz",
+  "author": "RIPPER-SER",
+  "developer": "@RIPPER-SER / @MIDU-SER",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/farhan-dqz/Julie-Mwol/issues"

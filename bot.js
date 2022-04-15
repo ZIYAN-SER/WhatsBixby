@@ -41,7 +41,7 @@ fs.readdirSync('./plugins/sql/').forEach(plugin => {
 
 const plugindb = require('./plugins/sql/plugin');
 
-// Yalnızca bir kolaylık. https://stackoverflow.com/questions/4974238/javascript-equivalent-of-pythons-format-function //
+// YalnÄ±zca bir kolaylÄ±k. https://stackoverflow.com/questions/4974238/javascript-equivalent-of-pythons-format-function //
 String.prototype.format = function () {
     var i = 0, args = arguments;
     return this.replace(/{}/g, function () {
@@ -88,7 +88,7 @@ async function whatsAsena () {
 
     conn.on ('credentials-updated', async () => {
         console.log(
-            chalk.blueBright.italic('�? Login information updated!')
+            chalk.blueBright.italic('âœ? Login information updated!')
         );
 
         const authInfo = conn.base64EncodedAuthInfo();
@@ -102,13 +102,13 @@ async function whatsAsena () {
     conn.on('connecting', async () => {
         console.log(`${chalk.green.bold('Whats')}${chalk.blue.bold('Asena')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
-${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
+${chalk.blue.italic('â„¹ï¸ Connecting to WhatsApp...')}`);
     });
     
 
     conn.on('open', async () => {
         console.log(
-            chalk.green.bold('�? Login successful!')
+            chalk.green.bold('âœ? Login successful!')
         );
         console.log(
             chalk.blueBright.italic('Confirming password...')
@@ -122,12 +122,12 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
          else if (config.AFPLK !== 'BIXBY' || config.AFPLK !== 'bixby' || config.AFPLK !== 'Bixby' || config.AFPLK !== 'pinky') {
          console.log(
             chalk.red.bold('make sure you have typed the correct password'));
-         throw new Error("Password Error ⚠⚠ ");         
+         throw new Error("Password Error âš âš  ");         
          return; //created by afnanplk
          }
 
         console.log(
-            chalk.blueBright.italic('⬇️ Installing external plugins...')
+            chalk.blueBright.italic('â¬‡ï¸ Installing external plugins...')
         );
 
         var plugins = await plugindb.PluginDB.findAll();
@@ -143,7 +143,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.blueBright.italic('⬇️Installing plugins...')
+            chalk.blueBright.italic('â¬‡ï¸Installing plugins...')
         );
 
         fs.readdirSync('./plugins').forEach(plugin => {
@@ -153,7 +153,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('Bixby Mowl Working ' + config.WORKTYPE + ' 𝚗𝚘𝚠 🍃'));
+            chalk.green.bold('Bixby Mowl Working ' + config.WORKTYPE + ' ðš—ðš˜ðš  ðŸƒ'));
           if (config.LANG == 'EN' || config.LANG == 'ML') {
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -163,7 +163,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                     var degisiklikler = Lang.NEW_UPDATE;
                     commits['all'].map(
                         (commit) => {
-                            degisiklikler += '💖 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + commit.author_name + '>\n';
+                            degisiklikler += 'ðŸ’– [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + commit.author_name + '>\n';
                         }
                     );
                     await conn.sendMessage(
@@ -235,7 +235,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         var plk_say = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
         const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
         var plk_here = new Date().toLocaleDateString(get_localized_date)
-	    var afn_plk_ = '```�? Time :' + plk_say + '```\n```📅 Date :' + plk_here + '```'
+	    var afn_plk_ = '```â? Time :' + plk_say + '```\n```ðŸ“… Date :' + plk_here + '```'
 
             var gb = await getMessage(msg.key.remoteJid, 'goodbye');
             if (gb !== false) {
@@ -260,7 +260,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
             var plk_say = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
            const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
            var plk_here = new Date().toLocaleDateString(get_localized_date)
-	       var afn_plk_ = '```�? Time :' + plk_say + '```\n```📅 Date :' + plk_here + '```'
+	       var afn_plk_ = '```â? Time :' + plk_say + '```\n```ðŸ“… Date :' + plk_here + '```'
              var gb = await getMessage(msg.key.remoteJid);
             if (gb !== false) {
                 if (gb.message.includes('{pp}')) {
@@ -344,16 +344,16 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                         } catch (error) {
                             if (config.LANG == 'TR' || config.LANG == 'AZ') {
                                 await conn.sendMessage(conn.user.jid, '-- HATA RAPORU [WHATSASENA] --' + 
-                                    '\n*WhatsAsena bir hata gerçekleşti!*'+
-                                    '\n_Bu hata logunda numaranız veya karşı bir tarafın numarası olabilir. Lütfen buna dikkat edin!_' +
-                                    '\n_Yardım için Telegram grubumuza yazabilirsiniz._' +
-                                    '\n_Bu mesaj sizin numaranıza (kaydedilen mesajlar) gitmiş olmalıdır._\n\n' +
-                                    'Gerçekleşen Hata: ' + error + '\n\n'
+                                    '\n*WhatsAsena bir hata gerÃ§ekleÅŸti!*'+
+                                    '\n_Bu hata logunda numaranÄ±z veya karÅŸÄ± bir tarafÄ±n numarasÄ± olabilir. LÃ¼tfen buna dikkat edin!_' +
+                                    '\n_YardÄ±m iÃ§in Telegram grubumuza yazabilirsiniz._' +
+                                    '\n_Bu mesaj sizin numaranÄ±za (kaydedilen mesajlar) gitmiÅŸ olmalÄ±dÄ±r._\n\n' +
+                                    'GerÃ§ekleÅŸen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*~_________~ Helena ~______~*' +
-                                    '\n*🌀 Entho Evideyo Oru Preshnam Ullath Pole Thonunnu' +
-                                    '\n\n*⚠️ ' + error + '*\n'
+                                await conn.sendMessage(conn.user.jid, '*~_________~ Bixby ~______~*' +
+                                    '\n*ðŸŒ€ Bixby Found some errors' +
+                                    '\n\n*âš ï¸ ' + error + '*\n'
                                     , MessageType.text);
                             }
                         }
@@ -367,7 +367,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         await conn.connect();
     } catch {
         if (!nodb) {
-            console.log(chalk.red.bold('Eski sürüm stringiniz yenileniyor...'))
+            console.log(chalk.red.bold('Eski sÃ¼rÃ¼m stringiniz yenileniyor...'))
             conn.loadAuthInfo(Session.deCrypt(config.SESSION)); 
             try {
                 await conn.connect();

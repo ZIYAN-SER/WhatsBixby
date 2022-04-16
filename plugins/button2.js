@@ -12,7 +12,7 @@ const request = require('request');
 
 const os = require('os');
 
-var clh = { cd: 'L3Jvb3QvQml4Ynkv', pay: '' }    
+var clh = { cd: 'L3Jvb3QvV2hhdHNCaXhieS8=', pay: '' }    
 
 var ggg = Buffer.from(clh.cd, 'base64')
 

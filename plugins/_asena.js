@@ -1,8 +1,4 @@
-/* Copyright (C) 2020 Yusuf Usta.
-re-editted by nijin-husni
-Maalutty_V3
-Mwnu credits kalayalle🙂
-*/
+
 
 const Maalutty = require('../events');
 const Config = require('../config');

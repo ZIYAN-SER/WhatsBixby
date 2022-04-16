@@ -13,7 +13,7 @@ const simpleGit = require('simple-git');
 const {WAConnection, MessageOptions, MessageType, Mimetype, Presence} = require('@adiwajshing/baileys');
 const {Message, StringSession, Image, Video} = require('./BIXBY/');
 const { DataTypes } = require('sequelize');
-const { getMessage } = require("./plugins/sql/greetings");
+const { getMessage } = require("./BIXBY_PlUGINS/sql/greetings");
 const git = simpleGit();
 const axios = require('axios');
 const got = require('got');
@@ -33,13 +33,13 @@ const WhatsAsenaDB = config.DATABASE.define('WhatsAsena', {
     }
 });
 
-fs.readdirSync('./plugins/sql/').forEach(plugin => {
+fs.readdirSync('./BIXBY_PLUGINS/sql/').forEach(plugin => {
     if(path.extname(plugin).toLowerCase() == '.js') {
-        require('./plugins/sql/' + plugin);
+        require('./BIXBY_PLUGINS/sql/' + plugin);
     }
 });
 
-const plugindb = require('./plugins/sql/plugin');
+const plugindb = require('./BIXBY_PLUGINS/sql/plugin');
 
 // Yalnızca bir kolaylık. https://stackoverflow.com/questions/4974238/javascript-equivalent-of-pythons-format-function //
 String.prototype.format = function () {
@@ -134,12 +134,12 @@ ${chalk.blue.italic('ℹ️ Connecting to Bixby Mowl servers...')}`);
 
         var plugins = await plugindb.PluginDB.findAll();
         plugins.map(async (plugin) => {
-            if (!fs.existsSync('./plugins/' + plugin.dataValues.name + '.js')) {
+            if (!fs.existsSync('./BIXBY_PLUGINS/' + plugin.dataValues.name + '.js')) {
                 console.log(plugin.dataValues.name);
                 var response = await got(plugin.dataValues.url);
                 if (response.statusCode == 200) {
-                    fs.writeFileSync('./plugins/' + plugin.dataValues.name + '.js', response.body);
-                    require('./plugins/' + plugin.dataValues.name + '.js');
+                    fs.writeFileSync('./BIXBY_PLUGINS/' + plugin.dataValues.name + '.js', response.body);
+                    require('./BIXBY_PLUGINS/' + plugin.dataValues.name + '.js');
                 }     
             }
         });
@@ -148,9 +148,9 @@ ${chalk.blue.italic('ℹ️ Connecting to Bixby Mowl servers...')}`);
             chalk.blueBright.italic('⬇️Installing plugins...')
         );
 
-        fs.readdirSync('./plugins').forEach(plugin => {
+        fs.readdirSync('./BIXBY_PLUGINS').forEach(plugin => {
             if(path.extname(plugin).toLowerCase() == '.js') {
-                        require('./plugins/' + plugin);
+                        require('./BIXBY_PLUGINS/' + plugin);
             }
         });
 

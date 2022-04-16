@@ -1,5 +1,5 @@
 build:
   docker:
-      worker: /plugins/sql/Dockerfile
+      worker: /BIXBY_PLUGINS/sql/Dockerfile
 run:
    worker: npm start

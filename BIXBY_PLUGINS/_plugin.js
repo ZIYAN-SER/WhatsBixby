@@ -55,11 +55,11 @@ Asena.addCommand({pattern: 'plugin ?(.*)', fromMe: true, desc: Lang.INSTALL_DESC
             plugin_name = "__" + Math.random().toString(36).substring(8);
         }
 
-        fs.writeFileSync('./bixby_modules/' + plugin_name + '.js', response.body);
+        fs.writeFileSync('./BIXBY_PLUGINS/' + plugin_name + '.js', response.body);
         try {
             require('./' + plugin_name);
         } catch (e) {
-            fs.unlinkSync('./bixby_modules/' + plugin_name + '.js')
+            fs.unlinkSync('./BIXBY_PLUGINS/' + plugin_name + '.js')
             return await message.client.sendMessage(message.jid,Lang.INVALID_PLUGIN + ' ```' + e + '```', MessageType.text);
         }
         var DEG = { level: 5 }
@@ -144,7 +144,7 @@ Asena.addCommand({pattern: 'remove(?: |$)(.*)', fromMe: true, dontAddCommandList
         } else {
             await plugin[0].destroy();
             delete require.cache[require.resolve('./' + match[1] + '.js')]
-            fs.unlinkSync('./bixby_modules/' + match[1] + '.js');
+            fs.unlinkSync('./BIXBY_PLUGINS/' + match[1] + '.js');
             await message.client.sendMessage(message.jid, Lang.DELETED, MessageType.text);        
             await new Promise(r => setTimeout(r, 1000));  
             await message.sendMessage(NLang.AFTER_UPDATE);

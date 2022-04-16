@@ -6,7 +6,7 @@ https://github.com/RIPPER-SER/bixbymowl
 
 const chalk = require('chalk');
 const {WAConnection, MessageOptions, MessageType} = require('@adiwajshing/baileys');
-const {StringSession} = require('./Bixby/');
+const {StringSession} = require('./BIXBY/');
 const fs = require('fs');
 
 async function whatsAsena () {

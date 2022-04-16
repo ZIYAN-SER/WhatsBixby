@@ -243,11 +243,11 @@
             "UPDATE": "*Bixby 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚕𝚢 𝚄𝚙𝚍𝚊𝚝𝚎𝚍 𝙽𝚘𝚝𝚑𝚒𝚗𝚐 𝙷𝚊𝚟𝚎 𝚃𝚘 𝚄𝚙𝚍𝚊𝚝𝚎*",
             "NEW_UPDATE": "*New update available for Bot!*\n\n*To update Bot give this command: .update now*\n\n*Join This Group Before Updating*\n*https://chat.whatsapp.com/DCMXCkQFxkAKIZPKb5MXnI*\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "𝚄𝚙𝚍𝚊𝚝𝚒𝚗𝚐....💖\n\n𝙿𝚕𝚎𝚊𝚜𝚎 𝚆𝚊𝚒𝚝.....",
+            "UPDATING": "𝚄𝚙𝚍𝚊𝚝𝚒𝚗𝚐....⚡\n\n𝙿𝚕𝚎𝚊𝚜𝚎 𝚆𝚊𝚒𝚝.....",
             "INVALID_HEROKU": "*❌ Your Heroku app name or api key wrong!*",
             "UPDATED": "*Updated ✅️*",
             "UPDATED_LOCAL": "*✅ Updated!*",
-            "AFTER_UPDATE": "𝙷𝚎𝚕𝚕𝚘 𝙼𝚊𝚜𝚝𝚎𝚛🥰\n\n𝙸 𝙰𝚖 𝚄𝚙𝚍𝚊𝚝𝚎𝚍 ✅ 𝙿𝚕𝚎𝚊𝚜𝚎 𝚆𝚊𝚒𝚝 Bixby 𝚁𝚎𝚜𝚝𝚊𝚛𝚝𝚒𝚗𝚐 𝙰𝚞𝚝𝚘𝚖𝚊𝚝𝚒𝚌𝚕𝚢 ✅️",
+            "AFTER_UPDATE": "Bixby Restarting Please wait✅",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
         "whois": {

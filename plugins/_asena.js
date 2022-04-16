@@ -8,7 +8,6 @@ const fs = require("fs")
 const Language = require('../language');
 const Lang = Language.getString('_asena');
 
-if (Config.STANDPLK == 'off') {
 if (Config.WORKTYPE == 'private') {
 
     Maalutty.addCommand({pattern: 'list ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {

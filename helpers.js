@@ -17,10 +17,10 @@
 */
 
 function successfullMessage(msg) {
-    return "✅ *Bixby Mowl*:  ```" + msg + "```"
+    return "✅ *WhatsBixby*:  ```" + msg + "```"
 }
 function errorMessage(msg) {
-    return "🛑 *Bixby Mowl*:  ```" + msg + "```"
+    return "🛑 *WhatsBixby*:  ```" + msg + "```"
 }
 function infoMessage(msg) {
     return "⏺️ *Bixby Mowl*:  ```" + msg + "```"

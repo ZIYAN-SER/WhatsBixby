@@ -219,7 +219,7 @@ var already_off = ''
 var succ_on = ''
 var succ_off = ''
 if (conf.LANG == 'TR') {
-    _dsc = 'Tam fonksiyonel helena özelliklerini aktif eder. Hesabınızı bir chatbota dönüştürün!'
+    _dsc = 'Tam fonksiyonel Bixby özelliklerini aktif eder. Hesabınızı bir chatbota dönüştürün!'
     already_on = 'Bixby yapay zekası halihazırda tüm fonksiyonları etkin.'
     already_off = 'Bixby yapay zekası halihazırda yarı fonksiyonel çalışıyor.'
     succ_on = 'Bixby, Tam Fonksiyonel Olarak Açıldı! Lütfen Biraz Bekleyin! ✅'

@@ -2,7 +2,7 @@
 <p align="center">
     <a href="https://avatars.githubusercontent.com/u/85664936?v=4">
         <img
-            src="https://readme-typing-svg.herokuapp.com?font=Hey+printing&color=5D0F99&size=32&lines=WELCOME+TO+BIXBY+MOWL;WHATSAPP+BOT+MADE+BY;ZIYAN+AND+MIDU-SER+AND+;POWERED+BY+ALIEN-ALFA"
+            src="https://readme-typing-svg.herokuapp.com?font=Hey+printing&color=5D0F99&size=32&lines=WELCOME+TO+WHATS+BIXBY;WHATSAPP+BOT+MADE+BY;ZIYAN+AND+MIDU-SER+AND+;POWERED+BY+ALIEN-ALFA"
             alt="Typing SVG"
         />
     </a>
@@ -14,7 +14,7 @@
 
 <div align="center">
   
-## [![BIXBY](https://readme-typing-svg.herokuapp.com?font=Road+Rage&color=5D0F99&lines=welcome+to+Bixby-mowl+Bot;+this+Bot+was+created+Ziyan;+this+is+the+first+wa+Bot+with+extraordinary+features )](https://bit.ly/2VM4lxF)
+## [![BIXBY](https://readme-typing-svg.herokuapp.com?font=Road+Rage&color=5D0F99&lines=welcome+to+WhatsBixby+Bot;+this+Bot+was+created+Ziyan;+this+is+the+first+wa+Bot+with+extraordinary+features )](https://bit.ly/2VM4lxF)
 
  </a>
 </p>
@@ -23,12 +23,12 @@
 <a href="#"><img title="ZIYAN" src="https://img.shields.io/badge/ZIYAN-red?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
-<a href="https://github.com/RIPPER-SER
-"><img title="Author" src="https://img.shields.io/badge/Author-RIPPER-SER/_Bixby_Mowl_?color=blue&style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/ZIYAN-SER
+"><img title="Author" src="https://img.shields.io/badge/Author-ZIYAN-SER/WhatsBixby?color=blue&style=for-the-badge&logo=whatsapp"></a>
 </p>
 </div>
 <p align="center">
-Project created by <a href="https://github.com/RIPPER-SER">ZIYAN</a> to make it public
+Project created by <a href="https://github.com/ZIYAN-SER">ZIYAN</a> to make it public
     <br>
        | © |
         Reserved |
@@ -48,9 +48,9 @@ Project created by <a href="https://github.com/RIPPER-SER">ZIYAN</a> to make it 
 
 <p align="center">
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=RIPPER-SER&show_icons=true&theme=dark&locale=en" alt="RIPPER-SER /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ZIYAN-SER&show_icons=true&theme=dark&locale=en" alt="ZIYAN-SER /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=RIPPER-SER&theme=dark" alt="RIPPER-SER" /></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ZIYAN-SER&theme=dark" alt="ZIYAN-SER" /></p>
 </p>
 
 
@@ -124,9 +124,9 @@ By establishing the Bixby Mowl , you are deemed to have accepted these responsib
 ## Developers
   <div align="center">
     
-  [![RIPPER-SER](https://github.com/RIPPER-SER.png?size=100)](https://github.com/RIPPER-SER) | [![MIDU-SER](https://github.com/MIDU-SER.png?size=100)](https://github.com/MIDU-SER) | [![Souravkl11](https://github.com/Alien-alfa.png?size=100)](https://github.com/souravkl11) 
+  [![ZIYAN-SER](https://github.com/ZIYAN-SER.png?size=100)](https://github.com/ZIYAN-SERA) | [![MIDU-SER](https://github.com/MIDU-SER.png?size=100)](https://github.com/MIDU-SER) | [![Souravkl11](https://github.com/Alien-alfa.png?size=100)](https://github.com/souravkl11) 
 ----|----|----
-[ZIYAN](https://github.com/RIPPER-SER) | [MIDU-SER](https://github.com/MIDU-SER) | [Alien-Alfa](https://github.com/Alien-alfa)
+[ZIYAN](https://github.com/ZIYAN-SER) | [MIDU-SER](https://github.com/MIDU-SER) | [Alien-Alfa](https://github.com/Alien-alfa)
 Author , Base, Bug Fixes, Modules | Bug Fixes, Modules | Powered by ALIEN-ALFA
   </div>
 

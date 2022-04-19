@@ -23,7 +23,7 @@ function errorMessage(msg) {
     return "🛑 *WhatsBixby*:  ```" + msg + "```"
 }
 function infoMessage(msg) {
-    return "⏺️ *Bixby Mowl*:  ```" + msg + "```"
+    return "⏺️ *WhatsBixby*:  ```" + msg + "```"
 }
 
 

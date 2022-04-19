@@ -359,7 +359,7 @@ async function checkImAdmin(message, user = message.client.user.jid) {
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
             await message.client.sendMessage(
-                message.jid, '\n\n' + Config.BOTPLK + '\n\n ```AT YOUR SERVICE``` \n\n   \n' + CMD_HELP, MessageType.text,{quoted: message.data}
+                message.jid, '\n\n' + Config.BOT + '\n\n ```AT YOUR SERVICE``` \n\n   \n' + CMD_HELP, MessageType.text,{quoted: message.data}
             );
         }
     }));

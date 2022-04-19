@@ -44,7 +44,7 @@ module.exports = {
     MUTEMSG: process.env.MUTE_MESSAGE === undefined ? 'default' : process.env.MUTE_MESSAGE,
     BGMFILTER: process.env.BGM_FILTER === undefined ? false : convertToBool(process.env.BGM_FILTER),
     LG_LOGO: process.env.LG_LOGO === undefined ? 'https://te.legra.ph/file/a9e518393144caf1ac505.jpg' : process.env.LG_LOGO,
-    LOGO_NAME: process.env.LOGO_NAME === undefined ? 'Miss Helena' : process.env.LOGO_NAME,
+    LOGO_NAME: process.env.LOGO_NAME === undefined ? 'WhatsBixby' : process.env.LOGO_NAME,
     INBO: process.env.INBO_BLOCK === undefined ? 'false' : process.env.INBO_BLOCK,
     INBO1: process.env.INBO_BLOCK === undefined ? 'true' : process.env.INBO_BLOCK,
     DISBGM: process.env.DISABLE_JID_BGM_FILTER === undefined ? false : process.env.DISABLE_JID_BGM_FILTER,
@@ -53,7 +53,7 @@ module.exports = {
     find_key: process.env.FIND_KEY === undefined ? '' : process.env.FIND_KEY,
     DISSTICKER: process.env.DISABLE_STICKER === undefined ? false : process.env.DISABLE_STICKER,
     BOT: process.env.BOT_NAME === undefined ? '•━━━━╼⤏Bixby Mowl⤎╾━━━•' : process.env.BOT_NAME,
-    BOTSK: process.env.BOT_NAME === undefined ? 'Bixby Mowl' : process.env.BOT_NAME,
+    BOTSK: process.env.BOT_NAME === undefined ? 'Whats Bixby' : process.env.BOT_NAME,
     LOGOSK: process.env.ALL_IMG === undefined ? 'https://te.legra.ph/file/a9e518393144caf1ac505.jpg' : process.env.ALL_IMG,
     SKDL: process.env.DIALOGUE === undefined ? '🤩 All The Dreams Like Twinkle Stars 🤩' : process.env.DIALOGUE,
     JID: process.env.VERIFIED === undefined ? '0@s.whatsapp.net' : process.env.VERIFIED,
@@ -95,7 +95,7 @@ module.exports = {
     SUDO: process.env.SUDO === undefined ? false : process.env.SUDO,
     DEBUG: DEBUG,
     WITAI_API: "TEYMELA6DMC4XB5YM3SPTTQWUUIBKURG",
-    SUPPORT: "919072790587-1635775355",
-    SUPPORT2: "905511384572-1617736751",
-    SUPPORT3: "905511384572-1621015274"
+    SUPPORT: "919446072492-1617736751",
+    SUPPORT2: "919446072492-1617736751",
+    SUPPORT3: "919446072492-1621015274"
 };

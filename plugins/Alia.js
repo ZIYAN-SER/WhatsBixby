@@ -18,7 +18,7 @@ const Config = require('../config');
 
 if (Config.WORKTYPE == 'private') {
 
-    WhatsBixby.addCommand({pattern: 'dq', fromMe: true, desc: 'random Alia bhatt images'}, (async (message, match) => {
+    WhatsBixby.addCommand({pattern: 'Alia', fromMe: true, desc: 'random Alia bhatt images'}, (async (message, match) => {
 
     var fetch_img = new Array ();
     
@@ -166,7 +166,7 @@ if (Config.WORKTYPE == 'private') {
 /*this plugin is full created by ziyan don't copy this without credit*/
 else if (Config.WORKTYPE == 'public') {
 
-    WhatsBixby.addCommand({pattern: 'dq', fromMe: false, desc:'random Alia bhatt images '}, (async (message, match) => {
+    WhatsBixby.addCommand({pattern: 'Alia', fromMe: false, desc:'random Alia bhatt images '}, (async (message, match) => {
 
     var fetch_img = new Array ();
     

@@ -29,7 +29,7 @@ Bixby.addCommand({pattern: 'git', fromMe: true, deleteCommand: true, desc: GM,},
 
     if (Config.WORKTYPE == 'public') {
 
-        asena.addCommand({pattern: 'git', fromMe: false, deleteCommand: true, desc: GM,}, (async (message, match) => {
+        Bixby.addCommand({pattern: 'git', fromMe: false, deleteCommand: true, desc: GM,}, (async (message, match) => {
 
             var r_text = new Array ();
 

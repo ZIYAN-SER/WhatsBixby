@@ -4,7 +4,7 @@ you may not use this file except in compliance with the License.
 https://github.com/RIPPER-SER/bixbymowl
 */
 
-const Bixby= require('../events');
+const Bixby = require('../events');
 
 const config = require('../config');
 
@@ -238,7 +238,7 @@ if (config.ANTİLİNK == 'false') antilink = 'Off'
 
 │
 
-┣𝕾⃝🌺 *ᴅᴇᴠᴇʟᴏʟᴇʀ* : 𝑅𝐴𝐹𝐼, 𝐴𝑀𝐸𝐸𝑁
+┣𝕾⃝🌺 *ᴅᴇᴠᴇʟᴏʟᴇʀ* : ZIYAN,MIDLAJ
 
 ┣𝕾⃝🌺 *Antilink* : ` + antilink + `
 
@@ -418,7 +418,7 @@ if (config.ANTİLİNK == 'false') antilink = 'Off'
 
 │
 
-│   ❏©Bixby Mowl❏
+│   ❏©WhatsBixby❏
 
 ╰──────────────────╯
 

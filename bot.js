@@ -3,7 +3,7 @@ Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 https://github.com/RIPPER-SER/Bixby-Mowl
 */
-
+//BASIC REQUIREMENTS 
 const fs = require("fs");
 const path = require("path");
 const events = require("./events");
@@ -76,7 +76,7 @@ async function whatsAsena () {
     conn.version = [3,3234,9];
     const Session = new StringSession();
     
-    conn.browserDescription = ["WhatsBixby", "Edge", '1.0.0']
+    conn.browserDescription = ["WhatsBixby", "Safari", '1.0.0']
 
     conn.logger.level = config.DEBUG ? 'debug' : 'warn';
     var nodb;

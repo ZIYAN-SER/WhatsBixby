@@ -38,7 +38,7 @@ Project created by <a href="https://github.com/ZIYAN-SER">ZIYAN</a> to make it p
 ----
 
   #### TOTAL REPO VIEWS
-![Visitor Count](https://profile-counter.glitch.me/RIPPER-SER/count.svg)
+![Visitor Count](https://profile-counter.glitch.me/ZIYAN-SER/count.svg)
 </p>
 <h4 align="center">Support Video For Deploy Bot 👇:</h4>
 <p align="center">

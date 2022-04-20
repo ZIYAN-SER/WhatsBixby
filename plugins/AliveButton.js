@@ -1,3 +1,10 @@
+/* Copyright (C) 2022 RIPPER-SER.
+Licensed under the  GPL-3.0 License;
+you may not use this file except in compliance with the License.
+https://github.com/ZIYAN-SER/WhatsBixby
+*/
+
+//BASIC REQUIREMENTS
 const Bixby = require('../events');
 const {MessageType, GroupSettingChange, Mimetype, MessageOptions} = require('@adiwajshing/baileys');
 const fs = require('fs');
@@ -6,7 +13,7 @@ const config = require('../config')
 const axios = require('axios')
 const request = require('request');
 const os = require('os');
-var clh = { cd: 'L3Jvb3QvQml4Ynkv', pay: '' }    
+var clh = { cd: 'L3Jvb3QvQml4Ynkv', pay: '' }   //WORK DIRECTORY IN BASE 64 TI BUFFER IN THAT DIRECTORY 
 var ggg = Buffer.from(clh.cd, 'base64')
 var ddd = ggg.toString('utf-8')
 

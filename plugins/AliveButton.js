@@ -13,7 +13,7 @@ const config = require('../config')
 const axios = require('axios')
 const request = require('request');
 const os = require('os');
-var clh = { cd: 'L3Jvb3QvQml4Ynkv', pay: '' }   //WORK DIRECTORY IN BASE 64 TI BUFFER IN THAT DIRECTORY 
+var clh = { cd: 'L3Jvb3QvV2hhdHNCaXhieS8=', pay: '' }   //WORK DIRECTORY IN BASE 64 TI BUFFER IN THAT DIRECTORY 
 var ggg = Buffer.from(clh.cd, 'base64')
 var ddd = ggg.toString('utf-8')
 

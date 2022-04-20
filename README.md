@@ -93,21 +93,21 @@ GET QR
 $ apt update
 $ apt install nodejs --fix-missing
 $ pkg install git
-$ git clone https://github.com/RIPPER-SER/Bixby-Mowl
-$ cd Bixby-Mowl
+$ git clone https://github.com/ZIYAN-SER/WhatsBixby
+$ cd WhatsBixby
 $ chmod +x *
 $ npm install @adiwajshing/baileys
 $ npm install chalk
-$ node Julie.js
+$ node qr.js
 ```
       
 ```js
 SETUP
-$ git clone https://github.com/RIPPER-SER/Bixby-Mowl
-$ cd Bixby-Mowl
+$ git clone https://github.com/ZIYAN-SER/WhatsBixby
+$ cd WhatsBixby
 $ chmod +x *
 $ npm i
-$ node Julie.js
+$ node qr.js
    // scan the qr using whatsapp web on your phone
 $ node bot.js
 ```
@@ -117,14 +117,14 @@ $ node bot.js
 ```
 Due to Whatsapp bot; Your WhatsApp account may be banned.
 This is an open source project, you are responsible for everything you do. 
-Absolutely, Bixby Mowl executives do not accept responsibility.
-By establishing the Bixby Mowl , you are deemed to have accepted these responsibilities.
+Absolutely, WhatsBixby executives do not accept responsibility.
+By establishing the WhatsBixby , you are deemed to have accepted these responsibilities.
 ```
 
 ## Developers
   <div align="center">
     
-  [![ZIYAN-SER](https://github.com/ZIYAN-SER.png?size=100)](https://github.com/ZIYAN-SERA) | [![MIDU-SER](https://github.com/MIDU-SER.png?size=100)](https://github.com/MIDU-SER) | [![Souravkl11](https://github.com/Alien-alfa.png?size=100)](https://github.com/souravkl11) 
+  [![ZIYAN-SER](https://github.com/ZIYAN-SER.png?size=100)](https://github.com/ZIYAN-SER) | [![MIDU-SER](https://github.com/MIDU-SER.png?size=100)](https://github.com/MIDU-SER) | [![Souravkl11](https://github.com/Alien-alfa.png?size=100)](https://github.com/Alien-alfa) 
 ----|----|----
 [ZIYAN](https://github.com/ZIYAN-SER) | [MIDU-SER](https://github.com/MIDU-SER) | [Alien-Alfa](https://github.com/Alien-alfa)
 Author , Base, Bug Fixes, Modules | Bug Fixes, Modules | Powered by ALIEN-ALFA

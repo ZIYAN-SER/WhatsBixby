@@ -1,4 +1,4 @@
-const asena = require('../events');
+const Bixby = require('../events');
 
 const {MessageType} = require('@adiwajshing/baileys');
 
@@ -10,7 +10,7 @@ const Config = require('../config');
 
 if (Config.WORKTYPE == 'private') {
 
-asena.addCommand({pattern: 'git', fromMe: true, deleteCommand: true, desc: GM,}, (async (message, match) => {
+Bixby.addCommand({pattern: 'git', fromMe: true, deleteCommand: true, desc: GM,}, (async (message, match) => {
 
     var r_text = new Array ();
 

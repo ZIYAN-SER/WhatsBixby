@@ -1,13 +1,14 @@
 /* Copyright (C) 2022 RIPPER-SER.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-https://github.com/RIPPER-SER/bixbymowl
+https://github.com/ZIYAN-SER/WhatsBixby
 */
+
 //Dont copy this file without credit
 
 
 //BASIC REQUIREMENTS
-const Asena = require('../events');
+const WhatsBixby = require('../events');
 
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 
@@ -17,7 +18,7 @@ const Config = require('../config');
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'dq', fromMe: true, desc: 'random Alia bhatt images'}, (async (message, match) => {
+    WhatsBixby.addCommand({pattern: 'dq', fromMe: true, desc: 'random Alia bhatt images'}, (async (message, match) => {
 
     var fetch_img = new Array ();
     
@@ -165,7 +166,7 @@ if (Config.WORKTYPE == 'private') {
 /*this plugin is full created by ziyan don't copy this without credit*/
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 'dq', fromMe: false, desc:'random Alia bhatt images '}, (async (message, match) => {
+    WhatsBixby.addCommand({pattern: 'dq', fromMe: false, desc:'random Alia bhatt images '}, (async (message, match) => {
 
     var fetch_img = new Array ();
     

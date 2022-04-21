@@ -104,7 +104,7 @@ async function whatsAsena () {
     conn.on('connecting', async () => {
         console.log(`${chalk.green.bold('Whats')}${chalk.blue.bold('Asena')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
-${chalk.blue.italic('ℹ️ Connecting to Bixby Mowl servers...')}`);
+${chalk.blue.italic('ℹ️ Connecting to WhatsBixby servers...')}`);
     });
     
 
@@ -155,7 +155,7 @@ ${chalk.blue.italic('ℹ️ Connecting to Bixby Mowl servers...')}`);
         });
 
         console.log(
-            chalk.green.bold('Bixby Mowl Working ' + config.WORKTYPE + ' 𝚗𝚘𝚠 🍃'));
+            chalk.green.bold('Whats Bixby Working ' + config.WORKTYPE + ' 𝚗𝚘𝚠 🍃'));
           if (config.LANG == 'EN' || config.LANG == 'ML') {
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);

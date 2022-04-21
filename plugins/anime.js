@@ -1,17 +1,17 @@
 /* Copyright (C) 2022 RIPPER-SER.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-https://github.com/RIPPER-SER/bixbymowl
+https://github.com/RIPPER-SER/WhatsBixby
 */
 
-const Bixby = require('../events');
+const WhatsBixby = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
 const Config = require('../config');
 
 if (Config.WORKTYPE == 'private') {
 
-    Bixby.addCommand({pattern: 'ranime', fromMe: true, desc: 'random anime image'}, (async (message, match) => {
+    WhatsBixby.addCommand({pattern: 'ranime', fromMe: true, desc: 'random anime image'}, (async (message, match) => {
 
     var r_text = new Array ();
 
@@ -99,13 +99,13 @@ if (Config.WORKTYPE == 'private') {
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: 'Made by Bixby Mowl'})
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: 'Made by WhatsBixby Mowl'})
 
     }));
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Bixby.addCommand({pattern: 'ranime', fromMe: false, desc:'random anime image '}, (async (message, match) => {
+    WhatsBixby.addCommand({pattern: 'ranime', fromMe: false, desc:'random anime image '}, (async (message, match) => {
 
     var r_text = new Array ();
 
@@ -193,7 +193,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: 'Made by Bixby Mowl'})
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: 'Made by WhatsBixby Mowl'})
 
     }));
 }

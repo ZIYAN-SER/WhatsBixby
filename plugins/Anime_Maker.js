@@ -9,7 +9,7 @@ https://github.com/ZIYAN-SER/WhatsBixby
 
 
 //BASIC REQUIREMENTS
-const Bixby = require('../events');
+const WhatsBixby = require('../events');
 const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys');
 const fs = require('fs');
 const axios = require('axios');
@@ -20,7 +20,7 @@ const Ln = "ANIME MAKER"
 //Work type change work type it's your prefered need
 if (Config.WORKTYPE == 'public') {
     
-Bixby.addCommand({pattern: 'animepack', fromMe: false, desc: Ln,}, (async (message, match) => {
+WhatsBixby.addCommand({pattern: 'animepack', fromMe: false, desc: Ln,}, (async (message, match) => {
 
     await message.client.sendMessage(
   
@@ -28,7 +28,7 @@ Bixby.addCommand({pattern: 'animepack', fromMe: false, desc: Ln,}, (async (messa
   
   }));
   
-Bixby.addCommand({ pattern: 'anime1 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime1 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -38,7 +38,7 @@ Bixby.addCommand({ pattern: 'anime1 ?(.*)', fromMe: false, dontAddCommandList: t
 
     }));
     
-Bixby.addCommand({ pattern: 'anime2 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime2 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -48,7 +48,7 @@ Bixby.addCommand({ pattern: 'anime2 ?(.*)', fromMe: false, dontAddCommandList: t
 
     }));
         
-Bixby.addCommand({ pattern: 'anime3 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime3 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -58,7 +58,7 @@ Bixby.addCommand({ pattern: 'anime3 ?(.*)', fromMe: false, dontAddCommandList: t
 
     }));
         
-Bixby.addCommand({ pattern: 'anime4 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime4 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -68,7 +68,7 @@ Bixby.addCommand({ pattern: 'anime4 ?(.*)', fromMe: false, dontAddCommandList: t
 
     }));
         
-Bixby.addCommand({ pattern: 'anime5 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime5 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -78,7 +78,7 @@ Bixby.addCommand({ pattern: 'anime5 ?(.*)', fromMe: false, dontAddCommandList: t
 
     }));
         
-Bixby.addCommand({ pattern: 'anime6 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime6 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -88,7 +88,7 @@ Bixby.addCommand({ pattern: 'anime6 ?(.*)', fromMe: false, dontAddCommandList: t
 
     }));
 
-Bixby.addCommand({ pattern: 'anime7 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime7 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -98,7 +98,7 @@ Bixby.addCommand({ pattern: 'anime7 ?(.*)', fromMe: false, dontAddCommandList: t
 
     }));
         
-Bixby.addCommand({ pattern: 'anime8 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime8 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -108,7 +108,7 @@ Bixby.addCommand({ pattern: 'anime8 ?(.*)', fromMe: false, dontAddCommandList: t
 
     }));      
         
-Bixby.addCommand({ pattern: 'anime9 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime9 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -118,7 +118,7 @@ Bixby.addCommand({ pattern: 'anime9 ?(.*)', fromMe: false, dontAddCommandList: t
 
     }));        
         
-Bixby.addCommand({ pattern: 'anime10 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime10 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -128,7 +128,7 @@ Bixby.addCommand({ pattern: 'anime10 ?(.*)', fromMe: false, dontAddCommandList: 
 
     }));
         
-Bixby.addCommand({ pattern: 'anime11 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime11 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -138,7 +138,7 @@ Bixby.addCommand({ pattern: 'anime11 ?(.*)', fromMe: false, dontAddCommandList: 
 
     }));      
         
-Bixby.addCommand({ pattern: 'anime12 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime12 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -148,7 +148,7 @@ Bixby.addCommand({ pattern: 'anime12 ?(.*)', fromMe: false, dontAddCommandList: 
 
     }));
 
-Bixby.addCommand({ pattern: 'anime13 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime13 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -158,7 +158,7 @@ Bixby.addCommand({ pattern: 'anime13 ?(.*)', fromMe: false, dontAddCommandList: 
 
     }));
         
-Bixby.addCommand({ pattern: 'anime14 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime14 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -168,7 +168,7 @@ Bixby.addCommand({ pattern: 'anime14 ?(.*)', fromMe: false, dontAddCommandList: 
 
     }));
         
-Bixby.addCommand({ pattern: 'anime15 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime15 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -178,7 +178,7 @@ Bixby.addCommand({ pattern: 'anime15 ?(.*)', fromMe: false, dontAddCommandList: 
 
     }));  
         
-Bixby.addCommand({ pattern: 'anime15 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime15 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -188,7 +188,7 @@ Bixby.addCommand({ pattern: 'anime15 ?(.*)', fromMe: false, dontAddCommandList: 
 
     }));      
         
-Bixby.addCommand({ pattern: 'anime16 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime16 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -201,7 +201,7 @@ Bixby.addCommand({ pattern: 'anime16 ?(.*)', fromMe: false, dontAddCommandList: 
  }
 
 if (Config.WORKTYPE == 'private') {
-Bixby.addCommand({pattern: 'animepack', fromMe: true, desc: Ln,}, (async (message, match) => {
+WhatsBixby.addCommand({pattern: 'animepack', fromMe: true, desc: Ln,}, (async (message, match) => {
 
     await message.client.sendMessage(
   
@@ -209,7 +209,7 @@ Bixby.addCommand({pattern: 'animepack', fromMe: true, desc: Ln,}, (async (messag
   
   }));
 
-Bixby.addCommand({ pattern: 'anime1 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime1 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -219,7 +219,7 @@ Bixby.addCommand({ pattern: 'anime1 ?(.*)', fromMe: true, dontAddCommandList: tr
 
     }));
    
-Bixby.addCommand({ pattern: 'anime2 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime2 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -229,7 +229,7 @@ Bixby.addCommand({ pattern: 'anime2 ?(.*)', fromMe: true, dontAddCommandList: tr
 
     }));  
    
-Bixby.addCommand({ pattern: 'anime3 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime3 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -239,7 +239,7 @@ Bixby.addCommand({ pattern: 'anime3 ?(.*)', fromMe: true, dontAddCommandList: tr
 
     }));    
 
-Bixby.addCommand({ pattern: 'anime4 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime4 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -249,7 +249,7 @@ Bixby.addCommand({ pattern: 'anime4 ?(.*)', fromMe: true, dontAddCommandList: tr
 
     }));
 
-Bixby.addCommand({ pattern: 'anime5 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime5 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -259,7 +259,7 @@ Bixby.addCommand({ pattern: 'anime5 ?(.*)', fromMe: true, dontAddCommandList: tr
 
     }));   
 
-Bixby.addCommand({ pattern: 'anime6 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime6 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -269,7 +269,7 @@ Bixby.addCommand({ pattern: 'anime6 ?(.*)', fromMe: true, dontAddCommandList: tr
 
     }));
 
-Bixby.addCommand({ pattern: 'anime7 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime7 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -279,7 +279,7 @@ Bixby.addCommand({ pattern: 'anime7 ?(.*)', fromMe: true, dontAddCommandList: tr
 
     }));  
    
-Bixby.addCommand({ pattern: 'anime8 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime8 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -289,7 +289,7 @@ Bixby.addCommand({ pattern: 'anime8 ?(.*)', fromMe: true, dontAddCommandList: tr
 
     }));  
       
-Bixby.addCommand({ pattern: 'anime9 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime9 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -299,7 +299,7 @@ Bixby.addCommand({ pattern: 'anime9 ?(.*)', fromMe: true, dontAddCommandList: tr
 
     }));     
       
-Bixby.addCommand({ pattern: 'anime10 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime10 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -309,7 +309,7 @@ Bixby.addCommand({ pattern: 'anime10 ?(.*)', fromMe: true, dontAddCommandList: t
 
     }));    
  
-Bixby.addCommand({ pattern: 'anime11 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime11 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -319,7 +319,7 @@ Bixby.addCommand({ pattern: 'anime11 ?(.*)', fromMe: true, dontAddCommandList: t
 
     }));  
         
-Bixby.addCommand({ pattern: 'anime12 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime12 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -329,7 +329,7 @@ Bixby.addCommand({ pattern: 'anime12 ?(.*)', fromMe: true, dontAddCommandList: t
 
     }));
 
-Bixby.addCommand({ pattern: 'anime13 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime13 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -339,7 +339,7 @@ Bixby.addCommand({ pattern: 'anime13 ?(.*)', fromMe: true, dontAddCommandList: t
 
     }));  
     
-Bixby.addCommand({ pattern: 'anime14 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime14 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -349,7 +349,7 @@ Bixby.addCommand({ pattern: 'anime14 ?(.*)', fromMe: true, dontAddCommandList: t
     
     }));    
 
-Bixby.addCommand({ pattern: 'anime15 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime15 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -359,7 +359,7 @@ Bixby.addCommand({ pattern: 'anime15 ?(.*)', fromMe: true, dontAddCommandList: t
 
     }));   
      
-Bixby.addCommand({ pattern: 'anime15 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime15 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -369,7 +369,7 @@ Bixby.addCommand({ pattern: 'anime15 ?(.*)', fromMe: true, dontAddCommandList: t
 
     }));  
        
-Bixby.addCommand({ pattern: 'anime16 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+WhatsBixby.addCommand({ pattern: 'anime16 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 

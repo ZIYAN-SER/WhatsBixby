@@ -15,7 +15,8 @@ currently being supported with security updates.
 
 ## STABLE VERSION 
 Stable version V 7.3.6 please follow up this version for using bot and re editing
-also we are not responsible if you have any problem by using older versions
+also we are not responsible if you have any problem by using older versions.
+last tested versions and it's stablity 21/4/22
 ## Reporting a Vulnerability
 
 Use this section to tell people how to report a vulnerability.

@@ -5,7 +5,7 @@ https://github.com/ZIYAN-SER/WhatsBixby
 */
 
 //BASIC REQUIREMENTS
-const WhatsWhatsBixby = require('../events');
+const WhatsBixby = require('../events');
 const {MessageType, GroupSettingChange, Mimetype, MessageOptions} = require('@adiwajshing/baileys');
 const fs = require('fs');
 const Config = require('../config')
@@ -20,7 +20,7 @@ var ddd = ggg.toString('utf-8')
 
 let ziyan = Config.WORKTYPE == 'public' ? false : true
 
-WhatsWhatsBixby.addCommand({pattern: 'alive', fromMe: ziyan, dontAddCommandList: true}, (async (message, match) => {
+WhatsBixby.addCommand({pattern: 'alive', fromMe: ziyan, dontAddCommandList: true}, (async (message, match) => {
 // send a buttons message!credit Amalser nenba uyir only credits for nenban
     const buttons = [
         {buttonId: 'id1', buttonText: {displayText: Config.WhatsWhatsBixby_ALIVE }, type: 1},

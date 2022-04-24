@@ -60,7 +60,7 @@ Project created by <a href="https://github.com/ZIYAN-SER">ZIYAN</a> to make it p
 Click WA logo to Join Support Group 👇
     <br>
 <br>
-  <a href="https://chat.whatsapp.com/DCMXCkQFxkAKIZPKb5MXnI" target="blank"><img align="center" src="https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png " /></a>
+  <a href="https://chat.whatsapp.com/L0xD3Tce5KxJoodbXcJ9lJ" target="blank"><img align="center" src="https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png " /></a>
 </p>
 
 ### Simple Method

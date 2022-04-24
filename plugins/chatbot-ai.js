@@ -220,24 +220,24 @@ var succ_on = ''
 var succ_off = ''
 if (conf.LANG == 'TR') {
     _dsc = 'Tam fonksiyonel Bixby özelliklerini aktif eder. Hesabınızı bir chatbota dönüştürün!'
-    already_on = 'Bixby yapay zekası halihazırda tüm fonksiyonları etkin.'
-    already_off = 'Bixby yapay zekası halihazırda yarı fonksiyonel çalışıyor.'
-    succ_on = 'Bixby, Tam Fonksiyonel Olarak Açıldı! Lütfen Biraz Bekleyin! ✅'
-    succ_off = 'Bixby, Yarı Fonksiyonel Olarak Ayarlandı! Lütfen Biraz Bekleyin! ☑️'
+    already_on = 'WhatsBixby yapay zekası halihazırda tüm fonksiyonları etkin.'
+    already_off = 'WhatsBixby yapay zekası halihazırda yarı fonksiyonel çalışıyor.'
+    succ_on = 'WhatsBixby, Tam Fonksiyonel Olarak Açıldı! Lütfen Biraz Bekleyin! ✅'
+    succ_off = 'WhatsBixby, Yarı Fonksiyonel Olarak Ayarlandı! Lütfen Biraz Bekleyin! ☑️'
 }
 if (conf.LANG == 'EN') {
     fulleva_dsc = 'Turns on AI powered chatbot on to your account!'
-    already_on = 'Bixby chatbot is already on.'
-    already_off = 'Helena chatbot is currently turned off!.'
-    succ_on = 'Bixby chatbot on! Restarting to make chatbot ✅'
-    succ_off = 'Bixby chatbot off Restarting to make normal❤️'
+    already_on = 'WhatsBixby chatbot is already on.'
+    already_off = 'WhatsBixby chatbot is currently turned off!.'
+    succ_on = 'WhatsBixby chatbot on! Restarting to make chatbot ✅'
+    succ_off = 'WhatsBixby chatbot off Restarting to make normal❤️'
 }
 if (conf.LANG == 'ML') {
-    fulleva_dsc = 'പൂർണ്ണമായും പ്രവർത്തനക്ഷമമായ Bixby chatbot സജീവമാക്കുന്നു. നിങ്ങളുടെ അക്കൗണ്ട് ഒരു ചാറ്റ്ബോട്ടാക്കി മാറ്റുക!'
+    fulleva_dsc = 'പൂർണ്ണമായും പ്രവർത്തനക്ഷമമായ WhatsBixby chatbot സജീവമാക്കുന്നു. നിങ്ങളുടെ അക്കൗണ്ട് ഒരു ചാറ്റ്ബോട്ടാക്കി മാറ്റുക!'
     already_on = 'കൃത്രിമബുദ്ധി ഇതിനകം പൂർണ്ണമായി പ്രവർത്തിക്കുന്നു.'
     already_off = 'AI നിലവിൽ സെമി-ഫംഗ്ഷണൽ ആണ്.'
-    succ_on = 'Bixby പൂർണ്ണമായും പ്രവർത്തനക്ഷമമായി തുറന്നു! കുറച്ച് കാത്തിരിക്കൂ! ✅'
-    succ_off = 'Bixby സെമി-ഫങ്ഷണൽ ആയി സജ്ജമാക്കുക! കുറച്ച് കാത്തിരിക്കൂ! ☑️'
+    succ_on = 'WhataBixby പൂർണ്ണമായും പ്രവർത്തനക്ഷമമായി തുറന്നു! കുറച്ച് കാത്തിരിക്കൂ! ✅'
+    succ_off = 'WhatsBixby സെമി-ഫങ്ഷണൽ ആയി സജ്ജമാക്കുക! കുറച്ച് കാത്തിരിക്കൂ! ☑️'
 }
 
 Bixby.addCommand({ pattern: 'bixby ?(.*)', desc: _dsc, fromMe: true,dontAddCommandList: true, usage: '.bixby on / off' }, (async (message, match) => {

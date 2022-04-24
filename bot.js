@@ -170,7 +170,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsBixby servers...')}`);
                     );
                     await conn.sendMessage(
                         conn.user.jid,
-                        '```type``` *.update now* ```to update```\n\n```wait..wait..\n\n*Please Join First Out Support Group And Ask To Update*\n\n*https://chat.whatsapp.com/DCMXCkQFxkAKIZPKb5MXnI* ' + degisiklikler + '```', MessageType.text
+                        '```type``` *.update now* ```to update```\n\n```wait..wait..\n\n*Please Join First Out Support Group And Ask To Update*\n\n*https://chat.whatsapp.com/L0xD3Tce5KxJoodbXcJ9lJ* ' + degisiklikler + '```', MessageType.text
                     ); 
                 } 
           }

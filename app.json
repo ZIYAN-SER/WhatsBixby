@@ -58,7 +58,7 @@
         "DIALOGUE": {
             "description": "set the Dialouge",
             "required": true,
-            "value": "Muthe i love you"
+            "value": "What's Bixby Menu🔥"
         },
         "INBO_BLOCK": {
             "description": "Inbox Blocking System. True koduthal ningalude pml vann chila bad words upoayogikunnavare bot block aakum block aakendengil false kodukuka",

@@ -3,6 +3,7 @@ Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 https://github.com/ZIYAN-SER/WhatsBixby
 */
+//#SUPPORT https://www.instagram.com/__ziyxn_
 
 //Dont copy this file without credit
 
@@ -19,7 +20,7 @@ const Config = require('../config');
 if (Config.WORKTYPE == 'private') {
 
     WhatsBixby.addCommand({pattern: 'Alia', fromMe: true, desc: 'random Alia bhatt images'}, (async (message, match) => {
-
+https://www.instagram.com/__ziyxn_/
     var fetch_img = new Array ();
     
     fetch_img[0] = "https://telegra.ph/file/1745416c09b18483ad2d4.jpg";

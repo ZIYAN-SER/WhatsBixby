@@ -8,7 +8,7 @@ const Bixby = require('../events');
 
 const config = require('../config');
 
-const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
+const {MessageType, MessageOptions, Mimetype} = require('@ZIYAN-SER/WhatsBixby-Web-Api');
 
 const axios = require('axios');
 

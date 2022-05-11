@@ -2,7 +2,7 @@
 
 const Asena = require('../events');
 const con = require('../config');
-const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
+const {MessageType, MessageOptions, Mimetype} = require('@ZIYAN-SER/WhatsBixby-Web-Api');
 const fs = require('fs');
 
 // Descriptions

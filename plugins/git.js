@@ -1,6 +1,6 @@
 const Bixby = require('../events');
 
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType} = require('@ZIYAN-SER/WhatsBixby-Web-Api');
 
 const GM = "it sends bot deploying link"
 

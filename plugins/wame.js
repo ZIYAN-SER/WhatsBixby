@@ -1,5 +1,5 @@
 const Asena = require('../events');
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType} = require('@ZIYAN-SER/WhatsBixby-Web-Api');
 const Config = require('../config');
 const fs = require('fs');
 

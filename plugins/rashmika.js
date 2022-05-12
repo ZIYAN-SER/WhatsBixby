@@ -10,7 +10,7 @@ Pikachu-Ameer Suhail
 
 const Asena = require('../events');
 
-const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
+const {MessageType, MessageOptions, Mimetype} = require('@ZIYAN-SER/WhatsBixby-Web-Api');
 
 const axios = require('axios');
 

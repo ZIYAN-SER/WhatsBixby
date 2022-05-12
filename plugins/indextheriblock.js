@@ -2,7 +2,7 @@
    RE-CODED - TERROR BOY
 */
 const Hisham = require('../events');
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType} = require('@ZIYAN-SER/WhatsBixby-Web-Api');
 const exec = require('child_process').exec;
 const os = require("os");
 const fs = require('fs');

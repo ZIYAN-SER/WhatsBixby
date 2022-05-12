@@ -1,6 +1,6 @@
 
 const Bixby = require('../events');
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType} = require('@ZIYAN-SER/WhatsBixby-Web-Api');
 const Config = require('../config'); // +
 let wk = Config.WORKTYPE == 'private' ? true : false // +
 const pd = "Chooses beautiful bios for your friends." // +

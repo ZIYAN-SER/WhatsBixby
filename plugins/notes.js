@@ -18,7 +18,7 @@
 
 const fs = require('fs/promises')
 const path = require('path')
-const { MessageType } = require('@adiwajshing/baileys')
+const { MessageType } = require('@ZIYAN-SER/WhatsBixby-Web-Api')
 const Asena = require('../events');
 const { successfullMessage, errorMessage, infoMessage } = require('../helpers');
 const NotesDB = require('./sql/notes');

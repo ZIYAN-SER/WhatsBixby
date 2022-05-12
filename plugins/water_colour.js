@@ -4,7 +4,7 @@ you may not use this file except in compliance with the License.
 PIKACHU*/
 
 const Asena = require('../events');
-const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys');
+const { MessageType, MessageOptions, Mimetype } = require('@ZIYAN-SER/WhatsBixby-Web-Api');
 const fs = require('fs');
 const axios = require('axios');
 const Config = require('../config');

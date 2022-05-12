@@ -4,7 +4,7 @@ you may not use this file except in compliance with the License.
 https://github.com/RIPPER-SER/Bixby-Mowl
 */
 
-const {MessageType, Presence, MessageOptions} = require('@adiwajshing/baileys');
+const {MessageType, Presence, MessageOptions} = require('@ZIYAN-SER/WhatsBixby-Web-Api');
 const Base = require('./Base');
 const ReplyMessage = require('./ReplyMessage');
 

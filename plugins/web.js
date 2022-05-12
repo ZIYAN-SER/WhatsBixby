@@ -7,7 +7,7 @@ WhatsAsena - Yusuf Usta
 */
 
 const Asena = require('../events');
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType} = require('@ZIYAN-SER/WhatsBixby-Web-Api');
 const speedTest = require('@lh2020/speedtest-net');
 const TinyURL = require('tinyurl');
 const Config = require('../config');

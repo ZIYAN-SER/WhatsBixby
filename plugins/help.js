@@ -1,6 +1,6 @@
 //PLUGIN MADE BY ZIYAN
 const WhatsBixby = require('../events');
-const {MessageType, GroupSettingChange, Mimetype, MessageOptions} = require('@adiwajshing/baileys');
+const {MessageType, GroupSettingChange, Mimetype, MessageOptions} = require('@ZIYAN-SER/WhatsBixby-Web-Api');
 const fs = require('fs');
 const Config = require('../config')
 const axios = require('axios')

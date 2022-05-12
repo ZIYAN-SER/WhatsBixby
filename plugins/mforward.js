@@ -7,7 +7,7 @@ https://github.com/RIPPER-SER/Bixby-Mowl
 //BASIC REQUIREMENTS
 
  const Bixby = require('../events');
- const { MessageType, Mimetype } = require('@adiwajshing/baileys');
+ const { MessageType, Mimetype } = require('@ZIYAN-SER/WhatsBixby-Web-Api');
  const fs = require('fs');
  const ffmpeg = require('fluent-ffmpeg');
  const { execFile } = require('child_process');

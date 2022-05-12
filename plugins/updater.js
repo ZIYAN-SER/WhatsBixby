@@ -9,7 +9,7 @@ WhatsAsena - Yusuf Usta
 const simpleGit = require('simple-git');
 const git = simpleGit();
 const Asena = require('../events');
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType} = require('@ZIYAN-SER/WhatsBixby-Web-Api');
 const Config = require('../config');
 const exec = require('child_process').exec;
 const Heroku = require('heroku-client');

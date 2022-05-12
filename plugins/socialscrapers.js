@@ -4,7 +4,7 @@ Instagram: www.instagram.com/kyrie.baran
 */
 
 const Bixby = require('../events')
-const { MessageType } = require('@adiwajshing/baileys')
+const { MessageType } = require('@ZIYAN-SER/WhatsBixby-Web-Api')
 const axios = require('axios')
 const cn = require('../config');
 

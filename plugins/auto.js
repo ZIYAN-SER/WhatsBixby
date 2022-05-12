@@ -6,7 +6,7 @@ https://github.com/RIPPER-SER/bixbymowl
 
 //BASIC REQUIREMENTS
 const Bixby = require('../events');
-const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys');
+const { MessageType, MessageOptions, Mimetype } = require('@ZIYAN-SER/WhatsBixby-Web-Api');
 const fs = require('fs');
 const axios = require('axios');
 

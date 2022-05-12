@@ -1,7 +1,7 @@
 /* Copyright © RIPPER-SER*/
 
 const Asena = require('../events');
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType} = require('@ZIYAN-SER/WhatsBixby-Web-Api');
 const axios = require ('axios')
 const LOAD_ING = "*Searching details*"
 const Config = require('../config');

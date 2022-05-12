@@ -4,7 +4,7 @@ Instagram: www.instagram.com/kyrie.baran
 */
 
 const Asena = require('../events');
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType} = require('@ZIYAN-SER/WhatsBixby-Web-Api');
 const Config = require('../config');
 
 const Language = require('../language');

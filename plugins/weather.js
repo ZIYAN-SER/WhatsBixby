@@ -7,7 +7,7 @@ WhatsAsena - Yusuf Usta
 */
 
 const Asena = require('../events');
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType} = require('@ZIYAN-SER/WhatsBixby-Web-Api');
 const got = require('got');
 const Config = require('../config');
 

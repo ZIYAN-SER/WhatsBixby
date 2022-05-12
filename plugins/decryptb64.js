@@ -5,7 +5,7 @@ https://github.com/RIPPER-SER/bixbymowl
 */
 
 const Bixby = require('../events');
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType} = require('@ZIYAN-SER/WhatsBixby-Web-Api');
 const axios = require('axios');
 const Config = require('../config');
 const b64 = "decrypt the encrypted text using base64"

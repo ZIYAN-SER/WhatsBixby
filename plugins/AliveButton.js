@@ -6,7 +6,7 @@ https://github.com/ZIYAN-SER/WhatsBixby
 
 //BASIC REQUIREMENTS
 const WhatsBixby = require('../events');
-const {MessageType, GroupSettingChange, Mimetype, MessageOptions} = require('@ZIYAN-SER/WhatsBixby-Web-Api');
+const {MessageType, GroupSettingChange, Mimetype, MessageOptions} = require('@adiwajshing/baileys');
 const fs = require('fs');
 const Config = require('../config')
 const config = require('../config')

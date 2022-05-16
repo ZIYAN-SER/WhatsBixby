@@ -4,7 +4,7 @@ you may not use this file except in compliance with the License.
 https://github.com/RIPPER-SER/WhatsBixby
 */
 
-const {MessageType, GroupSettingChange} = require('@ZIYAN-SER/WhatsBixby-Web-Api');
+const {MessageType, GroupSettingChange} = require('@adiwajshing/baileys');
 const WhatsBixby = require('../events');
 const Config = require('../config');
 

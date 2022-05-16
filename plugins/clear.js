@@ -5,7 +5,7 @@ https://github.com/RIPPER-SER/bixbymowl
 */
 
 
-const {MessageType, GroupSettingChange, ChatModification, WAConnectionTest} = require('@ZIYAN-SER/WhatsBixby-Web-Api');
+const {MessageType, GroupSettingChange, ChatModification, WAConnectionTest} = require('@adiwajshing/baileys');
 const Asena = require('../events');
 const Config = require('../config');
 

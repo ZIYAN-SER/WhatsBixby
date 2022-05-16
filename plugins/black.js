@@ -6,7 +6,7 @@ https://github.com/RIPPER-SER/bixbymowl
 
 //THIS PLUGIN BY Karthik terror boy
 const Bixby = require('../events');
-const {MessageType, Mimetype} = require('@ZIYAN-SER/WhatsBixby-Web-Api');
+const {MessageType, Mimetype} = require('@adiwajshing/baileys');
 const fs = require('fs');
 const ffmpeg = require('fluent-ffmpeg');
 const {execFile} = require('child_process');

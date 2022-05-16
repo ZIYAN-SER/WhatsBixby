@@ -25,7 +25,6 @@
   },
   "homepage": "https://github.com/ZIYAN-SER/WhatsBixby#readme",
   "dependencies": {
-    "dependencies": {
     "file-type": "16.5.2",
     "nekobin": "0.0.1",
     "raganork-bot": "1.9.8",

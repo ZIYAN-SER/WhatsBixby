@@ -5,7 +5,7 @@ https://github.com/RIPPER-SER/Bixby-Mowl
 */
 
 const WhatsBixby = require('../events');
-const {MessageType} = require('@ZIYAN-SER/WhatsBixby-Web-Api');
+const {MessageType} = require('@adiwajshing/baileys');
 const got = require('got');
 const Config = require('../config');
 

@@ -1,5 +1,5 @@
 const Bixby = require('../events');
-const {MessageType} = require('@ZIYAN-SER/WhatsBixby-Web-Api');
+const {MessageType} = require('@adiwajshing/baileys');
 const Config = require('../config');
 
 let ziyan = Config.WORKTYPE == 'public' ? false : true

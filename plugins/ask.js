@@ -7,7 +7,7 @@ https://github.com/RIPPER-SER/bixbymowl
 
 
 const Bixby = require('../events');
-const {MessageType} = require('@ZIYAN-SER/WhatsBixby-Web-Api');
+const {MessageType} = require('@adiwajshing/baileys');
 
 Bixby.addCommand({pattern: 'ask', fromMe: true}, (async (message, match) => {
 

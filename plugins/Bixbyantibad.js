@@ -5,7 +5,7 @@ https://github.com/ZIYAN-SER/WhatsBixby
 */
 
 const Bixby = require('../events');
-const {MessageType} = require('@ZIYAN-SER/WhatsBixby-Web-Api');
+const {MessageType} = require('@adiwajshing/baileys');
 const exec = require('child_process').exec;
 const os = require("os");
 const fs = require('fs');

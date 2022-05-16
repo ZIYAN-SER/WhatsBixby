@@ -6,7 +6,7 @@ Remoded by - Amalser
 
 const WhatsBixby = require('../events');
 const Config = require('../config');
-const {MessageType} = require('@ZIYAN-SER/WhatsBixby-Web-Api');
+const {MessageType} = require('@adiwajshing/baileys');
 const fs = require("fs")
 const image = require('../buffer');
 const Language = require('../language');

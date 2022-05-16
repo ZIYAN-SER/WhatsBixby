@@ -11,7 +11,7 @@ https://github.com/ZIYAN-SER/WhatsBixby
 //BASIC REQUIREMENTS
 const WhatsBixby = require('../events');
 
-const {MessageType, MessageOptions, Mimetype} = require('@ZIYAN-SER/WhatsBixby-Web-Api');
+const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 
 const axios = require('axios');
 

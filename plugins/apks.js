@@ -9,7 +9,7 @@ https://github.com/RIPPER-SER/bixbymowl
 //BASIC REQUIREMENTS
 const Bixby = require('../events');
 const axios = require('axios');
-const {MessageType, Mimetype, MessageOptions} = require('@ZIYAN-SER/WhatsBixby-Web-Api');
+const {MessageType, Mimetype, MessageOptions} = require('@adiwajshing/baileys');
 const {spawnSync} = require('child_process');
 const Config = require('../config');
 const fs = require('fs');

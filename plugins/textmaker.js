@@ -9,7 +9,7 @@ Don't use it for illegal purposes.
 const thiccysapi = require('textmaker-thiccy'); // Import NPM Package
 
 const Asena = require('../events');
-const {MessageType, GroupSettingChange, Mimetype, MessageOptions} = require('@ZIYAN-SER/WhatsBixby-Web-Api');
+const {MessageType, GroupSettingChange, Mimetype, MessageOptions} = require('@adiwajshing/baileys');
 const fs = require('fs');
 const Config = require('../config')
 const axios = require('axios')

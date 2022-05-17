@@ -5,7 +5,7 @@ WhatsAsenaDuplicated
 */
 
 const Asena = require('../events');
-const {MessageType} = require('@ZIYAN-SER/WhatsBixby-Web-Api');
+const {MessageType} = require('@adiwajshing/baileys');
 const got = require('got');
 const fs = require('fs');
 const axios = require('axios');

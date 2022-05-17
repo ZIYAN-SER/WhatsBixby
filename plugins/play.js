@@ -1,6 +1,6 @@
 const Asena = require('../events');
 
-const { MessageType, Mimetype } = require('@ZIYAN-SER/WhatsBixby-Web-Api');
+const { MessageType, Mimetype } = require('@adiwajshing/baileys');
 
 const got = require('got');
 

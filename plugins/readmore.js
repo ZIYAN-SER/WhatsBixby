@@ -2,7 +2,7 @@
 */
 
 const Asena = require('../events');
-const {MessageType} = require('@ZIYAN-SER/WhatsBixby-Web-Api');
+const {MessageType} = require('@adiwajshing/baileys');
 const Config = require('../config');
 
 Asena.addCommand({pattern: 'brdmore ?(.*)', fromMe: false, desc: 'add readmore before your text' }, (async (message, match) => {

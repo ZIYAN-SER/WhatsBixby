@@ -20,7 +20,7 @@ module.exports = {
     IMGBB_KEY: ["76a050f031972d9f27e329d767dd988f","deb80cd12ababea1c9b9a8ad6ce3fab2","78c84c62b32a88e86daf87dd509a657a"],
     RG: process.env.RG || '919074309534-1632403322@g.us',
     PASSWORD: process.env.PASSWORD || '',
-    BOT_INFO: process.env.BOT_INFO || 'ᴀʙᴜ-ᴍᴅ;ᴊsʟ;917025994178;https://i.imgur.com/OseHc3b.jpg;https://chat.whatsapp.com/KDt0eEkGCho7tLbfcmMltB',
+    BOT_INFO: process.env.BOT_INFO || 'ZIYAN,919446072492;https://telegra.ph/file/a590761ce530913ed8af5.jpg;https://chat.whatsapp.com/KDt0eEkGCho7tLbfcmMltB',
     RBG_KEY: process.env.RBG_KEY || '',
     ALLOWED: process.env.ALLOWED || '91,94,212',
     CHATBOT: process.env.CHATBOT || 'off',

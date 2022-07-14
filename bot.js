@@ -63,13 +63,11 @@ Array.prototype.remove = function() {
     return this;
 };
 
-async function whatsAsena () {
-    await config.DATABASE.sync();
-    var StrSes_Db = await WhatsAsenaDB.findAll({
-        where: {
-          info: 'StringSession'
-        }
-    });
+async function connectToWhatsApp () {
+    const sock = makeWASocket({
+        // can provide additional config here
+        printQRInTerminal: true
+    })
     
     
     const conn = new WAConnection();

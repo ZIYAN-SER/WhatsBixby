@@ -1,0 +1,40 @@
+{
+  "name": "WhatsBixby",
+  "version": "2.0.1",
+  "description": "Bixby whatsapp bot- Multi device version.",
+  "main": "./WhatsBixby/index.js",
+  "scripts": {
+    "start": "supervisor -s index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZIYAN-SER/WhatsBixby-md.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "multi-device"
+  ],
+  "author": "Ziyan",
+  "developer": "@ZIYAN-SER",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/ZIYAN-SER/WhatsBixby/issues"
+  },
+  "homepage": "https://github.com/ZIYAN-SER/WhatsBixby#readme",
+  "dependencies": {
+    "@adiwajshing/baileys": "4.1.0",
+    "@adiwajshing/keyed-db":"0.2.4",
+    "acrcloud":"1.4.0",
+    "abu-bot": "2.3.4",
+    "string-crypto": "2.0.2",
+    "link-preview-js":"2.1.15",
+    "mongodb": "^4.3.1",
+    "node-webpmux": "^3.1.0",
+    "node-cron": "3.0.1",
+    "async-g-i-s": "1.0.0",
+    "sequelize": "^6.13.0",
+    "sqlite3": "^5.0.0",
+    "supervisor": "^0.12.0"
+     }
+}

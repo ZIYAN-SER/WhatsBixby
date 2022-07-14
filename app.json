@@ -1,12 +1,12 @@
 {
-	"name": "Abu-MD",
+	"name": "WhatsBixby MD",
 	"description": "Wa Bot.",
     "logo": "https://i.imgur.com/OseHc3b.jpg",
 	"keywords": [
 		"whatsapp",
 		"bot"
 	],
-	"repository": "https://github.com/Afx-Abu/Abu-MD",
+	"repository": "https://github.com/ZIYAN-SER/WhatsBixby",
 	"stack": "container",
     "env": { 
         "HANDLERS": {
@@ -52,12 +52,12 @@
         "BOT_NAME": {
             "description": "Name of AI chatbot",
             "required": true,
-            "value":"𝑨𝑩𝑼-𝑴𝑫"
+            "value":"BIXBY MD"
         },
         "AUDIO_DATA": {
             "description": "Name of audio (take) name;name;image(url)",
             "required": true,
-            "value":"𝙰𝙱𝚄-𝙼𝙳;𝙰𝙱𝚄-𝚂𝙴𝚁;https://i.imgur.com/OseHc3b.jpg"
+            "value":"BIXBY-MD;ZIYAN-SER;https://i.imgur.com/OseHc3b.jpg"
         },
         "MODE": {
             "description": "Private or public",

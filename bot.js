@@ -69,35 +69,20 @@ async function connectToWhatsApp () {
         printQRInTerminal: true
     })
     
-    
-    const conn = new WAConnection();
-    conn.version = [3,3234,9];
-    const Session = new StringSession();
-    
-    conn.browserDescription = ["WhatsBixby", "Safari", '1.0.0']
-
-    conn.logger.level = config.DEBUG ? 'debug' : 'warn';
-    var nodb;
-
-    if (StrSes_Db.length < 1) {
-        nodb = true;
-        conn.loadAuthInfo(Session.deCrypt(config.SESSION)); 
-    } else {
-        conn.loadAuthInfo(Session.deCrypt(StrSes_Db[0].dataValues.value));
-    }
-
-    conn.on ('credentials-updated', async () => {
-        console.log(
-            chalk.blueBright.italic('✅ Login information updated!')
-        );
-
-        const authInfo = conn.base64EncodedAuthInfo();
-        if (StrSes_Db.length < 1) {
-            await WhatsAsenaDB.create({ info: "StringSession", value: Session.createStringSession(authInfo) });
-        } else {
-            await StrSes_Db[0].update({ value: Session.createStringSession(authInfo) });
+    sock.ev.on('connection.update', (update) => {
+        const { connection, lastDisconnect } = update
+        if(connection === 'close') {
+            const shouldReconnect = (lastDisconnect.error as Boom)?.output?.statusCode !== DisconnectReason.loggedOut
+            console.log('connection closed due to ', lastDisconnect.error, ', reconnecting ', shouldReconnect)
+            // reconnect if not logged out
+            if(shouldReconnect) {
+                connectToWhatsApp()
+            }
+        } else if(connection === 'open') {
+            console.log('opened connection')
         }
-    })    
+    })
+    
 
     conn.on('connecting', async () => {
         console.log(`${chalk.green.bold('Whats')}${chalk.blue.bold('Asena')}

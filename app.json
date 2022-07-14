@@ -42,7 +42,7 @@
         "STICKER_DATA": {
             "description": "Name of stickers created using bot. Can also split using ;",
             "required": true,
-            "value":"𝙰𝙱𝚄-𝙼𝙳-𝚆𝙰-𝙱𝙾𝚃"
+            "value":"BIXBY BOT"
         },
         "CHATBOT": {
             "description": "AI chatbot",
@@ -67,7 +67,7 @@
         "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
             "required": false,
-            "value":"917025994178"
+            "value":"919446072492"
         },
         "ALIVE": {
             "description": "Alive message {image/link}, {sender} can also be used",

@@ -2,7 +2,7 @@
 <p align="center">
     <a href="https://avatars.githubusercontent.com/u/92292759?s=1080&v=1080.png">
         <img
-            src="https://readme-typing-svg.herokuapp.com?font=Hey+printing&color=5D0F99&size=32&lines=WELCOME+TO+WHATS+BIXBY;WHATSAPP+BOT+MADE+BY;ZIYAN+AND+MIDU-SER+AND+;POWERED+BY+ALIEN-ALFA"
+            src="https://readme-typing-svg.herokuapp.com?font=Hey+printing&color=ff4081&size=32&lines=WELCOME+TO+WHATS+BIXBY;WHATSAPP+BOT+MADE+BY;ZIYAN+AND+MIDU-SER+AND+;POWERED+BY+ALIEN-ALFA"
             alt="Typing SVG"
         />
     </a>
